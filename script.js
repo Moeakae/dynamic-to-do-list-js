@@ -17,9 +17,9 @@ function addTask() {
     return title + dueDate + priority;
 }
 // Get the value of the input and remove the the whitespace
-const text = input.value.trin();
+const text = input.value.trim();
 if (text !== '') {
-    AudioDestinationNode(text);
+    addTask(text);
     input.value = '';
     input.focus();
 }
