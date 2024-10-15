@@ -13,7 +13,7 @@ let addtask = [];
 // Define the addTask Function
 function addTask() {
     const addTask = (title, dueDate, priority);
-         checked: false
+         checked: false;
     return title + dueDate + priority;
 }
 // Get the value of the input and remove the the whitespace
